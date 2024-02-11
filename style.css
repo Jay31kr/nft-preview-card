@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 0 rgba(140, 0, 255, 0.132);
+
+}
+
+.image-h {
+    position: relative;
+    width: 250px;
+}
+
+.image-h img {
+    width: 250px;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.data {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.about {
+    color: hsl(215, 51%, 70%);
+    margin-top: 0.8rem;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.price-time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+    padding-bottom: 1rem;
+}
+
+.price img,
+.time img {
+    margin-right: 0.6rem;
+}
+
+.price,
+.time {
+    display: flex;
+    font-weight: 400;
+}
+
+.price {
+    color: hsl(215, 51%, 70%);
+}
+
+.time {
+    color: hsl(178, 100%, 50%);
+}
+
+.avtar {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+span {
+    margin: 0 3.2px 0 3.2px;
+}
+
+h3:hover,
+.attribution a:hover {
+    color: hsl(178, 100%, 50%);
+}
